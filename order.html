@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+body{font-family:arial;
+}
+table, th, td {
+   
+	height:80px;
+}
+table, th, td, img
+{
+text-align:center;
+}
+
+li{display:inline;}
+
+a{text-decoration:none;font-weight:200;font-color:black;color:black;padding:5px;font-weight:bold;}
+a:hover{border-bottom:2px solid black}
+
+#content{margin-left:60px;color:#622c20;margin-right:60px;}
+
+#order{background-image:url(girl2.webp);
+	background-repeat:no-repeat;
+	background-size:1390px 550px;
+	margin-top:30px;display:block;
+	margin-bottom:20px;}
+
+</style>
+</head>
+<body>
+
+<div align="center"><img src="chanellogo.jpg" width="250" height="100"></div>
+<tr width="100%" bgcolor="" class="clr">
+
+ <div>
+<ul style="width:80%;margin-left:10%;text-align:center;height:50px;padding-top:25px;">
+<li style="margin-right:20px;"><a href="index.html">Home</a></li>
+<li style="margin-right:20px;"><a href="about.html">About Chanel</a></li>
+<li style="margin-right:20px;"><a href="fragrance.html">FRAGRANCE</a></li>
+<li style="margin-right:20px;"><a href="makeup.html">MAKEUP</a></li>
+<li style="margin-right:20px;"><a href="jewelry.html">JEWELRY</a></li>
+<li style="margin-right:20px;"><a href="bag.html">BAG</a></li>
+<li style="margin-right:20px;"><a href="promotion.html">Promotion Timimg</a></li>
+<li style="margin-right:20px;"><a href="order.html">Order Form</a></li>
+<li style="margin-right:20px;"><a href="contact.html">Contact</a></li>
+</ul>
+
+</div>
+
+
+<table style="width:100%;" cellpadding="5" border-collapse="0">
+<tr><td width="100%" colspan="4"><img src="packaging.jpg" width="100%" height="300"><h1 text-align="center">SHOPPING BAG</h1>
+<p text-align="center">CHANEL presents each purchase in signature packaging.</p></td></tr>
+
+
+
+</table>
+
+<table style="width:100%;" cellpadding="5" border-collapse="0">
+
+<tr>
+<td colspan="6"  class="head2">
+
+<fieldset>
+<legend>ORDER FORM</legend>
+<form method="post" action="thank.html">
+<label for="lname">Full Name</label>
+<input type="text" name="fullname" id="fullname" required="required" placeholder="Enter Your name"><br><br>
+<label for="email">Email</label>
+<input type="email" name="myEmail" id="myEmail" placeholder="Your email" ><br><br>
+<label for="mobile">Phone_No</label>
+<input type="tel" name="mobile" id="mobile" placeholder="Your phone number" ><br><br>
+<label for="city">Choose City</label>
+<input type="text" name="city" id="city" required="required" list="cities"><br><br>
+<datalist id="cities">
+<option value="Kyaukse">
+<option value="Kalaw">
+<option value="Yangon">
+<option value="Naypyidaw">
+<option value="Mandalay">
+<option value="Taunggyi">
+<option value="Monywa">
+<option value="Mogok">
+<option value="Sagaing">
+<option value="Bago">
+<option value="Taungoo">
+
+</datalist>
+<label for="orpayment">Choose Payment</label>
+<select size="1" name="orpayment" id="orpayment">
+<option>KBZ</option>
+<option>Wave</option>
+<option>CB</option>
+<option>Yoma</option>
+<option>Inwa</option>
+<opyion>Uab</option>
+</select>
+<label for="myDate">Confirm Date</label>
+<input type="date" name="myDate" id="myDate" required="required"><br><br>
+<label for="mySubject">Note</label>
+<textarea name="mySubject" id="mySubject" rows="2" cols="20" placeholder=""></textarea>
+
+<div>
+<ul style="width:80%;margin-left:10%;text-align:center;height:50px;padding-top:25px;">
+<li style="margin-right:20px;"><a href="thank.html">Order</a></li>
+<li style="margin-right:20px;">continue shopping</li>
+</div><br>
+<button type="submit" class="bback"><a href="menu.html">Back</a></button>
+</form>
+</fieldset>
+</div>
+</div>
+</table>
+
+</body>
+</html>
